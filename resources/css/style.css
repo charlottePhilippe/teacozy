@@ -1,0 +1,156 @@
+/*reset du style*/
+
+*{
+	margin: 0;
+	padding:0;
+}
+
+
+body{
+	font-family: Helvetica, Arial;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity : 0.9;
+	text-align: center;
+}
+
+a{
+	color: seashell;
+}
+
+header{
+	width: 100%;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	display: flex;
+	position: fixed;
+	background-color: black;
+	z-index: 1;
+}
+
+.logo{
+	display:flex;
+	flex-grow :1;
+}
+
+.logo img{
+	height: 50px;
+	padding : 10px 10px;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+}
+
+nav span{
+	display: inline-block;
+	padding: 20px;
+}
+
+/* style bloc mission*/
+#mission{
+	width: 1200px;
+	height: 700px;
+	position: relative;
+	top: 70px;
+	background-image : url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+	margin: 0 auto;
+	display: flex;
+    align-items: center;
+}
+
+.title-mission{
+	width: 100%;
+	background-color: black;
+	padding: 10px;
+}
+
+/* style bloc tea*/
+
+.tea-container{
+	position: relative;
+	top: 140px;
+	margin : 0 auto;
+	width: 1000px;
+	margin: 10px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tea-box{
+	width: 300px;
+	margin: 10px 10px;
+	
+}
+
+.title-tea{
+	width: 100%;
+	margin-top:70px;
+}
+
+.tea-box img{
+	height: 200px;
+}
+
+.tea-box p{
+	margin-top: 10px;
+}
+
+/* style bloc location*/
+#location{
+	width: 1200px;
+	height: 500px;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+	position: relative;
+	top: 170px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.location-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.loc-box{
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	margin: 15px 20px;
+	opacity: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.title-loc{
+	width: 100%;
+}
+
+/* style footer*/
+
+footer{
+	position: relative;
+	top: 170px;
+}
+
+.contact{
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.contact a{
+	text-decoration : none;
+}
+
+.copyright{
+	text-align:left;
+	padding: 30px 20px;
+}
